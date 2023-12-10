@@ -30,3 +30,5 @@ RUN mkdir -p /var/run/sshd
 RUN mkdir /home/coder/project
 
 ENTRYPOINT ["/usr/bin/azure-entrypoint.sh"]
+
+ENV TZ Asia/Tokyo
