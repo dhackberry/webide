@@ -32,3 +32,4 @@ RUN mkdir /home/coder/project
 ENTRYPOINT ["/usr/bin/azure-entrypoint.sh"]
 
 ENV TZ Asia/Tokyo
+ENV VSCODE_USER /home/coder/.local/share/code-server/User
